@@ -1,12 +1,6 @@
 import React, { Component } from "react";
 import TextField from "material-ui/TextField";
 
-const styles = {
-  floatingLabelFocusStyle: {
-    color: "white"
-  }
-};
-
 export default class Form extends Component {
   constructor() {
     super();
