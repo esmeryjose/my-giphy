@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.align {
+  display: inline;
+}
+.bar {
+  margin-left: 5% !important;
+}
+
+.giphySelectionContainer {
+  width: 25%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.perpendicular {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  margin: 0 auto;
+  width: 90%;
+  box-shadow: 12px 0 15px -4px #888888, -12px 0 8px -4px #888888;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  height: 20%;
+}
+
+.gifContainer {
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 20%;
+}
+
+.gifContainerRow {
+  margin: 0 auto;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 20%;
+}
+
+.gifCollection {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.gradient {
+  background: -webkit-linear-gradient(
+    #00bcd4,
+    white
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#00bcd4, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#00bcd4, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#00bcd4, white);
+}
+
+.gif {
+  width: 100%;
+}
+
+.font {
+  font-family: "Roboto", sans-serif !important;
+  color: #4dd0e1;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.alignLeft {
+  float: right;
+}
+
+.headerDivider {
+  border-left: 1px solid #38546d;
+  border-right: 1px solid #16222c;
+  height: 80px;
+  position: absolute;
+  right: 249px;
+  top: 10px;
+}
+
+#container {
+  overflow: hidden;
+}
+
+#inner {
+  overflow: hidden;
+}
+
+.child {
+  float: left;
+  margin-left: 2%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
