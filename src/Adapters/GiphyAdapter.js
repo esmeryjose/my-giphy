@@ -1,4 +1,4 @@
-const KEY = "api_key=KtzKVK1M9xQc4eJLPZjr5dds6ZURwzxd";
+const KEY = "";
 const URL = `https://api.giphy.com/v1/gifs/`;
 // const URL = `https://api.giphy.com/v1/gifs/search?${KEY}&`;
 

@@ -8,8 +8,6 @@ export default class Form extends Component {
       search: "",
       limit: ""
     };
-    this.constructParams = this.constructParams.bind(this);
-    this.handleChange = this.handleChange.bind(this);
   }
 
   componentWillReceiveProps({ searchMode }) {
@@ -19,20 +17,20 @@ export default class Form extends Component {
     }
   }
 
-  handleChange(e) {
+  handleChange = e => {
     const val = e.target.value;
     const property = e.target.id;
     this.setState({ [property]: val }, this.constructParams);
-  }
+  };
 
-  constructParams() {
+  constructParams = () => {
     const newLimit = this.state.limit.trim();
     if (!!this.props.searchMode || !!newLimit) {
       const { searchMode } = this.props;
       const params = { ...this.state, searchMode };
       this.props.handleForm(params);
     }
-  }
+  };
 
   searchInput = () => (
     <TextField
